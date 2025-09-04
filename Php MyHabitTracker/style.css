@@ -1,0 +1,68 @@
+<style>
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #e6f0ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 500px;
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    color: #5c9ded;
+}
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cce0ff;
+    border-radius: 6px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c9ded;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #4a8cd1;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #d9eaff;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #cce0ff;
+}
+a.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5c9ded;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    text-align: center;
+}
+a.button-link:hover {
+    background-color: #4a8cd1;
+}
+</style>
